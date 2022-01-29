@@ -537,16 +537,13 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-input + .footer-btn {
-  margin-left: 12px;
-}
-
 .footer-btn {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 200px;
   height: 50px;
+  margin-left: 12px;
 
   color: var(--text-white-color);
   background-color: var(--accent-color);
@@ -876,6 +873,7 @@ img {
   border-radius: 4px;
   padding: 12px 16px;
   margin-bottom: 20px;
+  resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .coment-input:focus {
@@ -957,8 +955,7 @@ img {
 
   background-color: #fff;
   border-radius: 2px;
-  border: 2px solid #000000;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000000;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-image 250ms cubic-bezier(0.4, 0, 0.2, 1),
