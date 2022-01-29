@@ -847,13 +847,12 @@ img {
   outline: none;
   border-color: var(--accent-color);
   cursor: pointer;
-  /* fill: var(--accent-color); */
 }
 .modal-input:hover {
   cursor: pointer;
 }
 /* --------Focus ICON----------------------------- */
-.label-field:focus .modal-icon {
+.modal-input:focus + .modal-icon {
   fill: var(--accent-color);
   cursor: pointer;
 }
