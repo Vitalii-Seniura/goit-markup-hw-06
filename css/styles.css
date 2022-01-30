@@ -928,6 +928,7 @@ img {
   color: var(--accent-color);
   cursor: pointer;
   border: 5px solid var(--accent-color);
+  outline: none;
 }
 
 .checkbox:checked {
@@ -938,6 +939,7 @@ img {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+  outline: none;
 }
 
 .checkbox-label {
@@ -955,12 +957,15 @@ img {
 
   background-color: #fff;
   border-radius: 2px;
-  border: 1px solid #000000;
+  border: 2px solid #000000;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-image 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-size 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.checkbox:focus {
+  outline: none;
 }
 
 .checkbox {
@@ -978,4 +983,8 @@ img {
   background-position: center;
   position: static;
   margin-right: 7px;
+}
+
+.checkbox:focus + .checkbox-icon {
+  border-color: var(--accent-color);
 }
