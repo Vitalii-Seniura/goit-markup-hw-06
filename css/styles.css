@@ -54,11 +54,11 @@ img {
 .logo-web {
   color: rgba(33, 150, 243, 1);
 
-  font-family: Raleway, serif;
+  /* font-family: Raleway, serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  text-decoration: none;
+  text-decoration: none; */
 }
 
 /* site nav */
@@ -395,6 +395,7 @@ img {
 .team-link-icon:hover,
 .team-link-icon:focus {
   background-color: var(--accent-color);
+  outline: none;
 }
 
 /* постоянные клиенты */
@@ -433,6 +434,7 @@ img {
 .client-link:hover,
 .client-link:focus {
   border: 1px solid var(--accent-color);
+  outline: none;
 }
 .client-link:hover .client-svg,
 .client-link:focus .client-svg {
